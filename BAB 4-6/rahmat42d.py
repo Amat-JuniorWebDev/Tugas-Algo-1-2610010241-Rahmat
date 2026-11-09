@@ -1,0 +1,11 @@
+s = "42"
+print(f"int('{s}') = {int(s)}")
+print(f"float('{s}') = {float(s)}")
+print(f"int(9.99) = {int(9.99)}")
+print(f"str(100) = '{str(100)}'")
+print(f"int(True)  = {int(True)}")
+print(f"int(False) = {int(False)}")
+print(f"bool(0) = {bool(0)}")
+print(f"bool(-5) = {bool(-5)}")
+print(f"bool('') = {bool('')}")
+print(f"bool('halo') = {bool('halo')}")

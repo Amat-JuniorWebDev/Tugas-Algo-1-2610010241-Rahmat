@@ -1,0 +1,12 @@
+a, b, c = 10, 20, 15
+print("Perbandingan:")
+print(f" a == b : {a == b}")
+print(f" a != b : {a != b}")
+print(f" a < b  : {a < b}")
+print("Operator logika:")
+print(f" a < b and b > c : {a < b and b > c}")
+print(f" a > b or b > c  : {a > b or b > c}")
+print(f" not (a == b)    : {not (a == b)}")
+print("Chained comparison:")
+print(f" a < c < b : {a < c < b}")
+print(f" 1 < 2 < 3 < 4 < 5 : {1 < 2 < 3 < 4 < 5}")

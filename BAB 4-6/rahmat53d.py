@@ -1,0 +1,11 @@
+kalimat = " Saya BeLaJaR PyThOn dEngAn TeKun. "
+print(f"Asli       : '{kalimat}'")
+print(f"strip()    : '{kalimat.strip()}'")
+print(f"lower()    : '{kalimat.lower().strip()}'")
+print(f"upper()    : '{kalimat.upper().strip()}'")
+print(f"title()    : '{kalimat.strip().title()}'")
+print(f"capitalize : '{kalimat.strip().capitalize()}'")
+baru = kalimat.strip().replace("PyThOn", "Python")
+print(f"replace    : '{baru}'")
+print(f"Mengandung 'belajar'? {'belajar' in kalimat.lower()}")
+print(f"Jumlah huruf 'a': {kalimat.lower().count('a')}")
