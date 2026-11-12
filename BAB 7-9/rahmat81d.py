@@ -1,0 +1,11 @@
+nilai = [78, 85, 92, 67, 88]
+total = sum(nilai)
+rata = total / len(nilai)
+maks = max(nilai)
+mins = min(nilai)
+print(f"Nilai      : {nilai}")
+print(f"Total      : {total}")
+print(f"Rata-rata  : {rata:.2f}")
+print(f"Tertinggi  : {maks}")
+print(f"Terendah   : {mins}")
+print(f"Lulus (≥60): {sum(1 for n in nilai if n >= 60)} mahasiswa")
